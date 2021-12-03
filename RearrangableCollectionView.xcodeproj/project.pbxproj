@@ -13,6 +13,8 @@
 		39402FCF2759A3C700A3A587 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 39402FCD2759A3C700A3A587 /* Main.storyboard */; };
 		39402FD12759A3C800A3A587 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 39402FD02759A3C800A3A587 /* Assets.xcassets */; };
 		39402FD42759A3C800A3A587 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 39402FD22759A3C800A3A587 /* LaunchScreen.storyboard */; };
+		39402FDC2759A45A00A3A587 /* NumberCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39402FDB2759A45A00A3A587 /* NumberCell.swift */; };
+		39402FDE2759A78A00A3A587 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39402FDD2759A78A00A3A587 /* CardView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		39402FD02759A3C800A3A587 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		39402FD32759A3C800A3A587 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		39402FD52759A3C800A3A587 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		39402FDB2759A45A00A3A587 /* NumberCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberCell.swift; sourceTree = "<group>"; };
+		39402FDD2759A78A00A3A587 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				39402FD02759A3C800A3A587 /* Assets.xcassets */,
 				39402FD22759A3C800A3A587 /* LaunchScreen.storyboard */,
 				39402FD52759A3C800A3A587 /* Info.plist */,
+				39402FDB2759A45A00A3A587 /* NumberCell.swift */,
+				39402FDD2759A78A00A3A587 /* CardView.swift */,
 			);
 			path = RearrangableCollectionView;
 			sourceTree = "<group>";
@@ -138,9 +144,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				39402FDC2759A45A00A3A587 /* NumberCell.swift in Sources */,
 				39402FCC2759A3C700A3A587 /* ViewController.swift in Sources */,
 				39402FC82759A3C700A3A587 /* AppDelegate.swift in Sources */,
 				39402FCA2759A3C700A3A587 /* SceneDelegate.swift in Sources */,
+				39402FDE2759A78A00A3A587 /* CardView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
